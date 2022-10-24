@@ -127,6 +127,8 @@
   },
   "defaultProject": "mdb-angular-pro",
   "cli": {
-    "defaultCollection": "@angular-eslint/schematics"
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }

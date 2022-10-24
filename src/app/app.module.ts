@@ -14,6 +14,7 @@ import { MdbFileUploadModule } from 'mdb-file-upload';
 import { MdbSortableModule } from 'mdb-sortable';
 import { MdbTableEditorModule } from 'mdb-table-editor';
 import { MdbWysiwygModule } from 'mdb-wysiwyg';
+import { AppRoutingModule } from 'mobile/src/app/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { MdbWysiwygModule } from 'mdb-wysiwyg';
     MdbSortableModule,
     MdbTableEditorModule,
     MdbWysiwygModule,
+    AppRoutingModule,
   ],
   providers: [MDBSpinningPreloader],
   bootstrap: [AppComponent],
